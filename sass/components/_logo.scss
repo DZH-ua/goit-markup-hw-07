@@ -1,0 +1,21 @@
+.logo {
+    font-family: var(--secondary-font);
+    color: var(--hover-color);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    margin-right: 93px;
+}
+
+.header__logo {
+    color: var(--main-color);
+}
+
+.footer__logo {
+    color: var(--secondary-color);
+}
+
+.logo-container {
+    margin-bottom: 20px;     
+}

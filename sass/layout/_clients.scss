@@ -1,0 +1,27 @@
+.clients-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;    
+}
+
+.clients-list__item {
+    flex-basis: calc((100% - 180px) / 6);
+    margin-left: 30px;
+    height: 92px;    
+}
+
+.clients-list__link {
+    @extend %align;
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--vector-color);
+    border-radius: 4px;
+    fill: var(--vector-color);
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        fill: var(--hover-color);
+        border: 1px solid var(--hover-color);
+    }
+}

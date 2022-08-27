@@ -1,0 +1,13 @@
+.post-title {
+    font-weight: 700;
+    font-size: var(--text-size);
+    line-height: 1.15;    
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
+}
+
+.post-title--white {      
+    color: var(--secondary-color);    
+    margin-bottom: 20px;
+}
